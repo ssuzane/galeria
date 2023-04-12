@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #ccd6db;
+}
+.principal img{
+  width: 30vw;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0.1s;
+ 
+}
+.principal img:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+     transform: scale(0.8);
+}
+.cima{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.baixo{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.baixo img{
+    height: 6.7vw;
+    transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0.1s;
+}
+.baixo img:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+     transform: scale(0.8);
+}
+.lados{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.lados img{
+    transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0.1s;
+    width: 15vw;
+}
+.lados img:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+     transform: scale(0.8);
+}
+header{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin: 30px;
+}
+body{
+    margin: 30px;
+}
+footer{
+    text-align: center;
+}
+a{
+ text-decoration: none;
+ background-color: palevioletred;
+ color: black;
+ border-radius: 20px;
+ padding: 10px;
+ margin: 39px;
+ font-family: 'Noto Sans KR', sans-serif;
+}
+.foto{
+    margin: 5px;
+    font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Sedgwick Ave Display', cursive;
+}
+.galeria{
+    margin: 5px;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Sedgwick Ave Display', cursive;
+}
+
